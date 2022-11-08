@@ -10,7 +10,7 @@ public class Speaker {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long session_id;
+    private Long speaker_id;
     private String first_name;
     private String last_name;
     private String title;
@@ -43,12 +43,12 @@ public class Speaker {
         this.sessions = sessions;
     }
 
-    public Long getSession_id() {
-        return session_id;
+    public Long getSpeaker_id() {
+        return speaker_id;
     }
 
-    public void setSession_id(Long session_id) {
-        this.session_id = session_id;
+    public void setSpeaker_id(Long speaker_id) {
+        this.speaker_id = speaker_id;
     }
 
     public String getFirst_name() {
