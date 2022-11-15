@@ -16,7 +16,6 @@ public class PersistenceConfiguration {
         builder.username("user1");
         builder.password("123");
         System.out.println("create dataSource");
-        org.springframework.boot.autoconfigure.en
         return builder.build();
     }
 }
